@@ -9,8 +9,7 @@ Pillow>=10.0.0
 # Deep Learning Framework (PyTorch)
 # Note: This installs the CPU version by default in some environments. 
 # For GPU support, usually you run a specific command, but this is the standard package.
-torch>=2.0.0
-torchvision>=0.15.0
+torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
 
 # Progress Bars & Visualization
 tqdm>=4.65.0
